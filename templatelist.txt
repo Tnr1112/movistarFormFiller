@@ -1,0 +1,77 @@
+#  Default template file which Namely pulls templates from.
+#  Add a '#' to the start of a line to not have it be evaluated. 
+
+
+###############################
+### DELIMITED BY UNDERSCORE ###
+###############################
+
+${first}_${last}@${domain}
+${last}_${first}@${domain}
+${first1}_${last}@${domain}
+${first}_${last1}@${domain}
+${first3}_${last}@${domain}
+${last1}_${first}@${domain}
+${last3}_${first}@${domain}
+
+
+###########################
+### DELIMITED BY PERIOD ###
+###########################
+
+${first}.${last}@${domain}
+${last}.${first}@${domain}
+${first1}.${last}@${domain}
+${first}.${last1}@${domain}
+${first3}.${last}@${domain}
+${last1}.${first}@${domain}
+${last3}.${first}@${domain}
+
+
+####################
+### NO DELIMETER ###
+####################
+
+${first}${last}@${domain}
+${last}${first}@${domain}
+${first1}${last}@${domain}
+${first}${last1}@${domain}
+${first3}${last}@${domain}
+${last1}${first}@${domain}
+${last3}${first}@${domain}
+
+
+###########################
+### DELIMITED BY HYPHEN ###
+###########################
+
+${first}-${last}@${domain}
+${last}-${first}@${domain}
+${first1}-${last}@${domain}
+${first}-${last1}@${domain}
+${first3}-${last}@${domain}
+${last1}-${first}@${domain}
+${last3}-${first}@${domain}
+
+
+##################
+### ONLY FIRST ###
+##################
+
+${first}@${domain}
+
+#################
+### ONLY LAST ###
+#################
+
+${last}@${domain}
+
+
+########################
+### CUSTOM TEMPLATES ###
+########################
+
+# Example custom template:
+#
+# ${first}-likes-kittens@${domain}
+# ${first1}${last}@${place}.${domain}
